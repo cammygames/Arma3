@@ -107,6 +107,22 @@ switch (_code) do
 			};
 		};
 	};
+	
+	//C Key (Container Trunks)
+	/*
+		Opens Container Inventory checks to see if its in the list before cont
+	*/
+	case 46:
+	{
+		if(!_alt && !_ctrlKey) then
+		{
+			if(cursorTarget in life_ContList) then
+			{
+				[cursorTarget] call life_fnc_openContInventory;
+			};
+		};
+	};
+	
 	//L Key?
 	case 38: 
 	{

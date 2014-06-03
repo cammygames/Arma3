@@ -10,6 +10,7 @@
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;
+life_cont_vehicle = Objnull;
 life_session_completed = false;
 life_garage_store = false;
 life_session_tries = 0;
@@ -61,6 +62,34 @@ life_eat_Rabbit = 20;
 life_eat_Apple = 5;
 life_eat_turtlesoup = 62;
 life_eat_donuts = 30;
+
+/*
+*****************************
+****** Custom Variables *****
+*****************************
+*/
+
+life_ContList = [
+
+	"Land_Cargo20_military_green_F",
+	"Land_Cargo20_blue_F",
+	"Land_Cargo20_brick_red_F",
+	"Land_Cargo20_orange_F",
+	"Land_Cargo20_cyan_F",
+	"Land_Cargo20_red_F",
+	"Land_Cargo20_sand_F",
+	"Land_Cargo20_grey_F",
+	"Land_Cargo20_white_F",
+	"Land_Cargo20_light_blue_F",
+	"Land_Cargo20_light_green_F",
+	"Land_Cargo20_yellow_F",
+	"Land_CargoBox_V1_F",
+	"Land_WaterBarrel_F",
+	"Land_BarrelEmpty_F",
+	"Land_WaterTank_F",
+	"Box_NATO_AmmoVeh_F"
+
+];
 
 /*
 *****************************

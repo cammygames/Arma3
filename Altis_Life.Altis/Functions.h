@@ -343,4 +343,17 @@ class Life_Client_Core
 		class bankTransfer {};
 		class garageLBChange {};
 	};
+
+	class Container_Inventory
+	{
+		file = "core\Custom\container";
+		class openContInventory {};
+		class contStoreItem {};
+		class contTakeItem {};
+		class contInventory {};
+		class contWeight {};
+		class contWeightCfg {};
+	};
+	
+	
 };
